@@ -1,0 +1,111 @@
+.challenge-overview {
+    margin-top: 80px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#title {
+    font-family: Helvetica;
+    font-size: 23px;
+    margin-bottom: -10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#customize-label {
+    font-family: Calibri;
+    font-size: 17px;
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* height: 100%; */
+}
+
+.editor-panel {
+    width: 50%;
+    margin-right: 5px;
+}
+
+.tabs {
+    display: flex;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: inherit;
+    /* width: 100%;   */
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 20px;
+    /* height: 50px; */
+}
+
+.tabs button {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    text-align: center;
+    transition: 0.2s;
+    font-size: 19px;
+}
+
+
+.tabs button:hover {
+    background-color: #ddd;
+}
+
+.tabs button.active {
+    background-color: #00a8e8;
+}
+
+.tabs button.focus {
+    background-color: #00a8e8;
+}
+
+.tab-content {
+    float: left;
+    width: 100%;
+    height: 650px;
+    border-left: none;
+    overflow: auto;
+    /* margin-:10px ; */
+}
+
+.tab-content::-webkit-scrollbar {
+    width: 0
+}
+
+.vertical-line {
+    border-left: 1px solid #b8b8b8; 
+}
+
+.preview-panel {
+    width: 50%;
+    margin-left: 5px;
+}
+
+.vertical-iframe {
+    width: 100%;
+    height: 700px;  
+}
+
+#save-button {
+    font-family: Calibri;
+    font-size: 17px;
+    margin: 22px 10px 0px 775px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+#refresh-button {
+    font-family: calibri;
+    font-size: 17px;
+    margin: 20px 10px 0px 15px;
+    width: 150px;
+    border-radius: 5px;
+}

@@ -1,0 +1,38 @@
+.schedule {
+    /* margin-left: 50px; */
+    /* margin-top: -15px; */
+}
+
+.card-header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 10px 20px -5px 20px
+}
+
+.sch-box {
+    height: 250px;
+    width: 880px;
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: lightgreen;
+}
+
+.sch-table {
+    margin-left: 20px;
+}
+.sch-round-details {
+    font-family: Calibri;
+    font-size: 19px;
+    margin-left: 20px;
+    /* margin-top:0     */
+}
+
+.sch-round-enter-button {
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 60px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}

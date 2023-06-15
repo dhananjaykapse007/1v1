@@ -1,0 +1,16 @@
+.dash-view {
+    margin-top: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.dash-container {
+    display: flex;
+}
+
+.dash-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+

@@ -1,0 +1,32 @@
+nav {
+    background-color: black;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 30px;
+  }
+  
+nav ul li {
+    margin-right: 25px;
+    font-size: 20px;
+}
+  
+nav ul li a {
+    font-family: lato;
+    /* letter-spacing: 2px; */
+    color: #fff;
+    text-decoration: none;
+    padding: 6px;
+}
+  
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 10px ;
+}
+  

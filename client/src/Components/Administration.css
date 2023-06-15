@@ -1,0 +1,29 @@
+.administration-header {
+    font-family: Helvetica;
+    margin-top: 80px;
+    font-size: 23px;
+    margin-left: 68px;
+}
+
+.manage-container-div {
+    margin-left: 68px;
+    margin-right: 68px;
+}
+
+.manage-tabs {
+    display: flex;
+    margin-bottom: -8px;
+}
+
+.manage-tab {
+    padding: 10px 20px 10px 20px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+}
+
+.manage-tab:hover {
+    background-color: lightgray;
+}
+
+

@@ -1,0 +1,36 @@
+.ch-mod-div {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.ch-mod-header {
+    font-family: Calibri;
+    font-size: 23px;
+}
+
+.ch-i-note {
+    font-family: Calibri;
+    font-size: 18px
+}
+
+.ch-search-mod-input {
+    width: 300px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.ch-search-mod-button {
+    font-family: calibri;
+    font-size: 17px;
+    margin: 0px 10px 0px 10px;
+    width: 100px;
+    /* height: 25px; */
+    padding: 5px 5px 2px 5px;
+    border-radius: 5px;
+}
+
+.ch-current-mod-header {
+    font-family: Calibri;
+    font-size: 20px
+}
